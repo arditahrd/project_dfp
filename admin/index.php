@@ -43,14 +43,14 @@ if(!isset($_SESSION["admin"])){
   <div style="color: white;
 padding: 15px 50px 5px 50px;
 float: right;
-font-size: 16px;"> Last access : 2019 &nbsp;
+font-size: 16px;"> Last access : 2021 &nbsp;
         </nav>   
            <!-- /. NAV TOP  -->
                 <nav class="navbar-default navbar-side" role="navigation">
             <div class="sidebar-collapse">
                 <ul class="nav" id="main-menu">
 				<li class="text-center">
-                    <img src="assets/img/dita.jpeg" class="user-image img-responsive"/>
+                    <img src="assets/img/avatar.png" class="user-image img-responsive"/>
 					</li>
 				
 					

@@ -1,14 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 13, 2019 at 09:27 AM
--- Server version: 10.1.29-MariaDB
--- PHP Version: 7.2.0
+-- Generation Time: Nov 09, 2021 at 07:47 AM
+-- Server version: 10.4.21-MariaDB
+-- PHP Version: 7.3.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
@@ -40,7 +39,11 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id_admin`, `username`, `password`, `nama_lengkap`) VALUES
-(1, 'ardita', 'arditaadmin', 'Ardita Hardi');
+(1, 'ardita', 'arditaadmin', 'Ardita Hardi'),
+(2, 'fita', 'fitaadmin', 'Miftakhul Fitri'),
+(3, 'daffa', 'daffadmin', 'Daffa Raka'),
+(4, 'rini', 'riniadmin', 'Rini'),
+(5, 'aura', 'aura admin', 'Aura');
 
 -- --------------------------------------------------------
 
@@ -92,7 +95,8 @@ INSERT INTO `pelanggan` (`id_pelanggan`, `email_pelanggan`, `password_pelanggan`
 (1, 'arditahardi15@gmail.com', 'arditapelanggan', 'Ardita Hardi', '0895365964406'),
 (2, 'clara@gmail.com', 'clara', 'Clara Natasya', '08123456789'),
 (3, 'julia@gmail.com', 'julia', 'Julia Ramadhani', '082327473232'),
-(4, 'filanda@yahoo.com', 'filandaadmin', 'Filanda', '0123456789');
+(4, 'filanda@yahoo.com', 'filandaadmin', 'Filanda', '0123456789'),
+(5, 'nyobadulu@gmail.com', 'nyobadulu', 'nyoba dulu', 'nyobadulu');
 
 -- --------------------------------------------------------
 
@@ -120,7 +124,9 @@ INSERT INTO `pembelian` (`id_pembelian`, `id_pelanggan`, `id_ongkir`, `tanggal_p
 (11, 3, 4, '2019-05-12', 5069000, 'Bandung', 29000, 'Jalan Bogasari Blok F5 No.8'),
 (12, 2, 6, '2019-05-12', 1213000, 'Tanjung Pinang', 13000, 'Perum Kelapa Muda Nomor 90'),
 (13, 4, 8, '2019-05-13', 2125000, 'Pekanbaru', 25000, 'Jalan Mawar Blok H No.11'),
-(14, 4, 0, '2019-05-13', 1899000, '', 0, '');
+(14, 4, 0, '2019-05-13', 1899000, '', 0, ''),
+(15, 1, 0, '2021-11-09', 1236000, '', 0, 'Tangerang'),
+(16, 5, 0, '2021-11-09', 2100000, '', 0, '');
 
 -- --------------------------------------------------------
 
@@ -146,7 +152,9 @@ INSERT INTO `pembelian_produk` (`id_pembelian_produk`, `id_pembelian`, `id_produ
 (14, 11, 7, 2),
 (15, 12, 6, 1),
 (16, 13, 3, 1),
-(17, 14, 8, 1);
+(17, 14, 8, 1),
+(18, 15, 2, 1),
+(19, 16, 3, 1);
 
 -- --------------------------------------------------------
 
@@ -223,7 +231,7 @@ ALTER TABLE `produk`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id_admin` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `ongkir`
@@ -235,19 +243,19 @@ ALTER TABLE `ongkir`
 -- AUTO_INCREMENT for table `pelanggan`
 --
 ALTER TABLE `pelanggan`
-  MODIFY `id_pelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id_pelanggan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `pembelian`
 --
 ALTER TABLE `pembelian`
-  MODIFY `id_pembelian` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id_pembelian` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT for table `pembelian_produk`
 --
 ALTER TABLE `pembelian_produk`
-  MODIFY `id_pembelian_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id_pembelian_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=20;
 
 --
 -- AUTO_INCREMENT for table `produk`

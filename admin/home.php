@@ -1,1 +1,1 @@
-<h2> Selamat Datang Administrator, Ardita! </h2>
+<h2> Selamat Datang Administrator! </h2>

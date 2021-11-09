@@ -212,8 +212,8 @@ if(!isset($_SESSION["pelanggan"])){
     		</div>
 		</section>
 
-		<pre><?php print_r($_SESSION['pelanggan']) ?></pre>
-		<pre><?php print_r($_SESSION['cart']) ?></pre>
+		<pre><?php ($_SESSION['pelanggan']) ?></pre>
+		<pre><?php ($_SESSION['cart']) ?></pre>
 		
 
     <footer class="ftco-footer bg-light ftco-section">
