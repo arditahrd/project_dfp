@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 09, 2021 at 07:47 AM
+-- Generation Time: Nov 22, 2021 at 09:08 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `nike_shoes`
+-- Database: `e_meubel`
 --
 
 -- --------------------------------------------------------
@@ -174,14 +174,18 @@ CREATE TABLE `produk` (
 --
 
 INSERT INTO `produk` (`id_produk`, `nama_produk`, `harga_produk`, `foto_produk`) VALUES
-(1, 'Nike Air Vapormax Flyknit', 1240000, 'product1.jpg'),
-(2, 'Nike Air Vapormax Plus Sneakers In Blue', 1236000, 'product2.jpg'),
-(3, 'Nike Sportswear Vapormax Plus', 2100000, 'product3.jpg'),
-(4, 'Nike Men\'s Air VaporMax', 2500000, 'product4.jpg'),
-(5, 'Nike Triple Black Air Vapormax Plus Trainers', 2800000, 'product5.jpg'),
-(6, 'Nike Running Air Max', 1200000, 'product6.jpg'),
-(7, 'Nike Running Vapormax Sneakers In Black', 1900000, 'product7.jpg'),
-(8, 'Nike Air Vapormax Flyknit 2', 1899000, 'product8.jpg');
+(9, 'Kursi Goyang', 790000, 'produk1.jpg'),
+(10, 'Set Meja Makan 4 Kursi', 2250000, 'produk2.jpg'),
+(11, 'Lemari Penyimpanan', 1150000, 'produk4.jpg'),
+(13, 'Kabinet Penyimpanan', 750000, 'produk5.png'),
+(14, 'Kursi', 390000, 'produk6.jpg'),
+(15, 'Kursi Motif', 420000, 'produk7.jpg'),
+(16, 'Lemari Pakaian', 1500000, 'produk8.jpg'),
+(17, 'Tempat Tidur Single', 3600000, 'produk9.jpg'),
+(18, 'Nakas Bundar', 230000, 'produk10.jpg'),
+(19, 'Nakas 3 Laci', 360000, 'produk11.jpg'),
+(21, 'Set Meja Makan 4 Stool', 1500000, 'produk13.jpg'),
+(22, 'Meja Rias', 2900000, 'produk12.jpg');
 
 --
 -- Indexes for dumped tables
@@ -261,7 +265,7 @@ ALTER TABLE `pembelian_produk`
 -- AUTO_INCREMENT for table `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `id_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id_produk` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

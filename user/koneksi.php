@@ -1,1 +1,1 @@
-<?php $koneksi = new mysqli("localhost","root","","nike_shoes"); ?>
+<?php $koneksi = new mysqli("localhost","root","","e_meubel"); ?>

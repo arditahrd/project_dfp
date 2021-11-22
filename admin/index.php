@@ -1,7 +1,7 @@
 ﻿<?php
 session_start();
 //koneksi ke database
-$koneksi = new mysqli("localhost","root","","nike_shoes");
+$koneksi = new mysqli("localhost","root","","e_meubel");
 
 //jika belum login
 if(!isset($_SESSION["admin"])){
@@ -16,7 +16,7 @@ if(!isset($_SESSION["admin"])){
 <head>
       <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nike Shoes Admin</title>
+    <title>E-MEUBEL ADMIN</title>
 	<!-- BOOTSTRAP STYLES-->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
      <!-- FONTAWESOME STYLES-->
@@ -38,7 +38,7 @@ if(!isset($_SESSION["admin"])){
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html">Nike Shoes Admin</a> 
+                <a class="navbar-brand" href="index.html">ADMIN</a> 
             </div>
   <div style="color: white;
 padding: 15px 50px 5px 50px;

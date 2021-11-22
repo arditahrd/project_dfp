@@ -7,7 +7,7 @@ include 'koneksi.php';
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Nike Shoes</title>
+    <title>E-MEUBEL</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -37,7 +37,7 @@ include 'koneksi.php';
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Nike Shoes</a>
+	      <a class="navbar-brand" href="index.php">E-MEUBEL</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
@@ -70,15 +70,15 @@ include 'koneksi.php';
 	  </nav>
     <!-- END nav -->
 		
-		<div class="hero-wrap js-fullheight" style="background-image: url('images/bg1.jpg');">
+		<div class="hero-wrap js-fullheight" style="background-image: url('images/bg4.jpg');">
       <div class="overlay"></div>
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-center justify-content-center">
-        	<h3 class="v">NIKE SHOES</h3>
-        	<h3 class="vr">Since - 2019</h3>
+        	<h3 class="v">E-MEUBEL</h3>
+        	<h3 class="vr">Since - 2021</h3>
           <div class="col-md-11 ftco-animate text-center">
-            <h1>NIKE SHOES</h1>
-            <h2><span>Wear Your Shoes</span></h2>
+            <h1>E-MEUBEL</h1>
+            <h2><span>Only The Best Wood</span></h2>
           </div>
           <div class="mouse">
 						<a href="#" class="mouse-icon">
@@ -104,13 +104,13 @@ include 'koneksi.php';
     				<div class="product-slider owl-carousel ftco-animate">
     					<div class="item">
 		    				<div class="product">
-		    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/product1.jpg" alt="Colorlib Template">
+		    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/produk1.jpg" alt="Colorlib Template">
 		    					</a>
 		    					<div class="text pt-3 px-3">
-		    						<h3><a href="shop.php">Nike Air Vapormax Flyknit</a></h3>
+		    						<h3><a href="shop.php">Kursi Goyang</a></h3>
 		    						<div class="d-flex">
 		    							<div class="pricing">
-			    							<p class="price"><span>Rp1.240.000</span></p>
+			    							<p class="price"><span>Rp790.000</span></p>
 			    						</div>
 		    						</div>
 		    					</div>
@@ -118,12 +118,12 @@ include 'koneksi.php';
 	    				</div>
 	    				<div class="item">
 		    				<div class="product">
-		    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/product2.jpg" alt="Colorlib Template"></a>
+		    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/produk2.jpg" alt="Colorlib Template"></a>
 		    					<div class="text pt-3 px-3">
-		    						<h3><a href="shop.php">Nike Air Vapormax Plus Sneakers In Blue</a></h3>
+		    						<h3><a href="shop.php">Set Meja Makan 4 Kursi</a></h3>
 		    						<div class="d-flex">
 		    							<div class="pricing">
-				    						<p class="price"><span>Rp1.236.000</span></p>
+				    						<p class="price"><span>Rp2.250.000</span></p>
 				    					</div>
 			    					</div>
 		    					</div>
@@ -131,12 +131,12 @@ include 'koneksi.php';
 	    				</div>
 	    				<div class="item">
 		    				<div class="product">
-		    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/product3.jpg" alt="Colorlib Template"></a>
+		    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/produk4.jpg" alt="Colorlib Template"></a>
 		    					<div class="text pt-3 px-3">
-		    						<h3><a href="shop.php">Nike Sportswear Vapormax Plus</a></h3>
+		    						<h3><a href="shop.php">Lemari Penyimpanan</a></h3>
 		    						<div class="d-flex">
 		    							<div class="pricing">
-				    						<p class="price"><span>Rp2.100.000</span></p>
+				    						<p class="price"><span>Rp1.150.000</span></p>
 				    					</div>
 			    					</div>
 		    					</div>
@@ -144,12 +144,12 @@ include 'koneksi.php';
 	    				</div>
 	    				<div class="item">
 		    				<div class="product">
-		    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/product4.jpg" alt="Colorlib Template"></a>
+		    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/produk9.jpg" alt="Colorlib Template"></a>
 		    					<div class="text pt-3 px-3">
-		    						<h3><a href="shop.php">Nike Men's Air VaporMax</a></h3>
+		    						<h3><a href="shop.php">Tempat Tidur Single</a></h3>
 		    						<div class="d-flex">
 		    							<div class="pricing">
-				    						<p class="price"><span>Rp2.500.000</span></p>
+				    						<p class="price"><span>Rp3.360.000</span></p>
 				    					</div>
 			    					</div>
 		    					</div>
@@ -174,12 +174,12 @@ include 'koneksi.php';
     		<div class="row">
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/product5.jpg" alt="Colorlib Template"></a>
+    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/produk8.jpg" alt="Colorlib Template"></a>
     					<div class="text py-3 px-3">
-    						<h3><a href="shop.php">Nike Triple Black Air Vapormax Plus Trainers</a></h3>
+    						<h3><a href="shop.php">Lemari Pakaian</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>Rp2.800.000</span></p>
+		    						<p class="price"><span>Rp1.150.000</span></p>
 		    					</div>
 	    					</div>
     					</div>
@@ -187,12 +187,12 @@ include 'koneksi.php';
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/product6.jpg" alt="Colorlib Template"></a>
+    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/produk11.jpg" alt="Colorlib Template"></a>
     					<div class="text py-3 px-3">
-    						<h3><a href="shop.php">Nike Running Air Max</a></h3>
+    						<h3><a href="shop.php">Nakas 3 Laci</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>Rp.1.200.000</span></p>
+		    						<p class="price"><span>Rp360.000</span></p>
 		    					</div>
 	    					</div>
     					</div>
@@ -200,12 +200,12 @@ include 'koneksi.php';
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/product7.jpg" alt="Colorlib Template"></a>
+    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/produk12.jpg" alt="Colorlib Template"></a>
     					<div class="text py-3 px-3">
-    						<h3><a href="shop.php">Nike Running Vapormax Sneakers In Black</a></h3>
+    						<h3><a href="shop.php">Set Meja Makan 4 Stool</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>Rp1.900.000</span></p>
+		    						<p class="price"><span>Rp1.150.000</span></p>
 		    					</div>
 	    					</div>
     					</div>
@@ -213,12 +213,12 @@ include 'koneksi.php';
     			</div>
     			<div class="col-sm col-md-6 col-lg ftco-animate">
     				<div class="product">
-    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/product8.jpg" alt="Colorlib Template"></a>
+    					<a href="shop.php" class="img-prod"><img class="img-fluid" src="images/produk13.jpg" alt="Colorlib Template"></a>
     					<div class="text py-3 px-3">
-    						<h3><a href="shop.php">Nike Air Vapormax Flyknit 2</a></h3>
+    						<h3><a href="shop.php">Meja Rias</a></h3>
     						<div class="d-flex">
     							<div class="pricing">
-		    						<p class="price"><span>Rp1.899.000</span></p>
+		    						<p class="price"><span>Rp2.290.000</span></p>
 		    					</div>
 	    					</div>
     					</div>
@@ -342,7 +342,7 @@ include 'koneksi.php';
         <div class="row mb-5">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Nike Shoes</h2>
+              <h2 class="ftco-heading-2">E-MEUBEL</h2>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
                 <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -385,7 +385,7 @@ include 'koneksi.php';
 	              <ul>
 	                <li><span class="icon icon-map-marker"></span><span class="text">Indonesia</span></li>
 	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">(012)3456789</span></a></li>
-	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">nikeshoes@gmail.com</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">e_meubel@gmail.com</span></a></li>
 	              </ul>
 	            </div>
             </div>
