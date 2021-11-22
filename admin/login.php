@@ -1,7 +1,7 @@
 ﻿<?php
 session_start();
 
-$koneksi = new mysqli("localhost","root","","nike_shoes");
+$koneksi = new mysqli("localhost","root","","e_meubel");
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ $koneksi = new mysqli("localhost","root","","nike_shoes");
         <div class="row text-center ">
             <div class="col-md-12">
                 <br /><br />
-                <h2> NikeShoes Admin : Login</h2>
+                <h2> E-Meubel Admin : Login</h2>
                
                 <h5>( Login yourself to get access )</h5>
                  <br />
